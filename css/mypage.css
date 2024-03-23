@@ -34,7 +34,7 @@ body, html {
     left: 50%; /* 좌측으로부터 50%의 위치에 배치 */
     transform: translate(-50%, -50%); /* 정확한 중앙 정렬을 위해 변환 사용 */
     width: 75%;
-    height: 500px;
+    height: 300px;
     background-color: #31333F;
     padding: 20px;
     box-sizing: border-box;
