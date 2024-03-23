@@ -98,8 +98,18 @@
     color: #fff;
 }
 
+#otherButton {
+    /* 다른 버튼의 초기 스타일 */
+    margin-top: 200px;
+    transition: margin-top 0.3s ease; /* 마진 변화를 부드럽게 만듦 */
+}
+
+.moveOtherButton {
+    margin-top: 50px; /* 마진을 변경하는 새로운 위치 */
+}
+
 .content_section .button {
-    margin-top: 150px;
+    margin-top: 210px;
     width: 220px;
     height: 65px;
     border-radius: 30px;
