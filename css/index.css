@@ -41,6 +41,7 @@
 .nav {
     order: 2;
     width: 100%;
+    z-index: 99;
 }
 
 .gnb {
