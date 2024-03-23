@@ -1,9 +1,27 @@
-/* 기본 CSS */
 body {
     height: 100vh;
     font-family: NanumGothic, 나눔고딕, 'Nanum Gothic', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
-    background: url(../images/about_bg.png) no-repeat center;
+    background: url(../images/about_bg3.png) no-repeat center;
     background-size: cover;
     line-height: 1;
-    color: #fff;
+    background-size: 100% 100vh;
 }
+@media (min-width: 768px) {
+    body {
+        height: 100vh;
+        font-family: NanumGothic, 나눔고딕, 'Nanum Gothic', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+        background: url(../images/about_bg2.png) no-repeat center;
+        background-size: cover;
+        line-height: 1;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    body {
+        height: 100vh;
+        font-family: NanumGothic, 나눔고딕, 'Nanum Gothic', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+        background: url(../images/about_bg2.png) no-repeat center;
+        background-size: cover;
+        line-height: 1;
+    }
+  }
