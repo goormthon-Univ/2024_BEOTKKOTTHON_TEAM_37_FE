@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>댓칼코마니</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/URL_link2.css">
+    <link rel="shortcut icon" href="images/body_bg.png">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/URL_link2.js"></script>
+    <script src="js/signup.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header class="header">
+            <h1 class="logo">
+                <a href="index.html">댓칼코마니<br></a>
+            </h1>
+            <nav class="nav">
+                <ul class="gnb">
+                    <li><a href="about.html">ABOUT</a><span class="sub_menu_toggle_btn">하위 메뉴 토글 버튼</span></li>
+                    <li><a href="URL_link2.html">FEEDBACK</a><span class="sub_menu_toggle_btn">하위 메뉴 토글 버튼</span></li>
+                    <li><a href="mypage.html">START NOW</a><span class="sub_menu_toggle_btn">하위 메뉴 토글 버튼</span></li>
+                </ul>
+            </nav>
+            <span class="menu_toggle_btn">전체 메뉴 토글 버튼</span>
+        </header>
+    </div>
+    <section class="chatbox_section">
+    <div class="chat-box" id="chatBox">
+        <!-- 대화 메시지가 여기에 동적으로 추가됩니다 -->
+    </div>
+    <input type="text" id="urlInput" placeholder="웹툰 URL을 입력해주세요">
+    <button id="fetchButton">결과 보기</button>
+    <div id="result"></div>
+</section>
+</body>
+
+</html>
