@@ -1,5 +1,5 @@
 ### 2024_BEOTKKOTTHON_TEAM_37_BE
-🎨 댓글은 깔끔히, 코멘트는 많이 - **댓칼코마니**🎨 백엔드 레포지토리
+🎨 댓글은 깔끔히, 코멘트는 많이 - **댓칼코마니**🎨 프론트엔드 레포지토리
 
 ![Slide 16_9 - 318](https://github.com/goormthon-Univ/2024_BEOTKKOTTHON_TEAM_37_BE/assets/90598552/b6d6e533-bf09-499a-99fc-97a68ca68537)
 
