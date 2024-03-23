@@ -1,3 +1,21 @@
+function updateStartNowButton() {
+    const token = localStorage.getItem('token');    
+    const startNowButton = document.getElementById('startNowButton');
+
+    if (token) {
+        startNowButton.textContent = 'MY PAGE';
+        startNowButton.href = 'mypage.html';
+    } else {
+        startNowButton.textContent = 'START NOW';
+        startNowButton.href = 'index.html';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    updateStartNowButton();
+});
+
+
 function addMessageToChatBox(message, type, isHtml = false) {
     const chatBox = document.getElementById('chatBox');
     const messageElement = document.createElement('div');
